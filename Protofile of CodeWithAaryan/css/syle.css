@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@3008display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar {
+    background-color: rgb(223, 218, 218);
+    font-family: 'Fira Sans', sans-serif;
+    height: 112vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 80vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.infoContainer {
+    /* background-color: rgb(202, 9, 128); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+}
+
+.hello {
+    font-size: 3em;
+    margin-left: 34px;
+
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 34px;
+
+}
+
+.about {
+    font-size: 2.5em;
+    margin-left: 34px;
+}
+
+.moreabout {
+    font-size: 2em;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 23px;
+    margin-left: 34px;
+}
+
+.btn {
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+
+.btn-button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.btn-button{
+    font-size: 14px;
+    padding: 7px 13px;
+    margin: 14px 0;
+    margin-left: 30px;
+}
+
+.devPic img {
+    height: 58vh;
+}
+
+
+/* This style start for contact page */
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 84px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 88px;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+  /* padding: 12px 0; */
+    margin-left: 19px;
+    margin-top: -86px;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    /* width: 26vw; */
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+.contactform form{
+  margin: 0 30px;
+}
+#emailHelp {
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px;
+}
+
+/* This style Start for Blog page */
+
+
+.blogItem h2{
+   margin: 20px;
+   font-family: 'Fira Sans', sans-serif;
+}
+
+.blogContainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+}
+
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 18px;
+}
+
+/* This style start for Into page */
+.intro{
+    margin: 0 88px;
+}
+.intro h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 53px;
+    margin-top: -12px;
+}
+
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 18px;
+    margin-top: -17px;
+}
+
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 18px;
+    margin: 23px;
+    margin-left: 54px;
+}
+
+.skillItem{
+  display: flex;
+  align-items: center;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900;
+}
+
+.skillContainer{
+    padding: 12px;
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    margin-left: 7px;
+    border: 2px solid black;
+}
+
+
+
+.fifty{
+    width: 265px;
+    background-color: blueviolet;
+}
+
+
+.hundred{
+    width: 265px;
+    background-color: aqua;
+}
+
+.t5{
+    width: 265px;
+    background-color: yellow;
+}
+
+
+/* This style Start for Responsivenes for the website */
+
+
+
+@media (max-width: 1615px){
+    *{
+         /* background-color: red; */
+    }
+
+   /* .sidebar{
+       transform: translate(-443px, 0px);
+       position: absolute;
+   } */
+}
+
+
+/* This style Start for Icon */
+.cross{
+    position: absolute;
+    top: 10px;
+    right: 1132px;
+    cursor: pointer;
+}
+
+.hum{
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    cursor: pointer;
+}
+
+
+/* siderbar go  */
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.intro, .blogContainer, .contactform{
+    margin: 50px 8px;
+
+}
+
+.devInfo{
+    font-size: 10px;
+}
+
+.buttons{
+   font-size: 10px;
+}
