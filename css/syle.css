@@ -303,7 +303,9 @@
     align-items: center;
     margin-top: 12px;
     margin-left: 240px;
+    font-size: 23px;
     font-family:  'Fira Sans', sans-serif;
+    margin-left: 52px;
 }
 
 .Aaryan p{
@@ -312,4 +314,8 @@
     font-family: 'Source Code Pro', monospace;
     margin-left: 34px;
     margin-top: 10px;
+}
+
+.video{
+    margin-left: 22px;
 }
