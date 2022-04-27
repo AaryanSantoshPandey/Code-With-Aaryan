@@ -319,3 +319,8 @@
 .video{
     margin-left: 22px;
 }
+
+.cross {
+    right: 182px;
+    cursor: pointer;
+}
