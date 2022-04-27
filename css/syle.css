@@ -294,3 +294,22 @@
 .buttons{
    font-size: 10px;
 }
+
+
+/* Courses page style start */
+
+.Aaryan h1{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 240px;
+    font-family:  'Fira Sans', sans-serif;
+}
+
+.Aaryan p{
+    display: flex;
+    justify-items: center;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 34px;
+    margin-top: 10px;
+}
