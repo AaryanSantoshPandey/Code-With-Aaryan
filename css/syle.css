@@ -253,16 +253,6 @@
 
 
 
-@media (max-width: 1615px) {
-    * {
-        /* background-color: red; */
-    }
-
-    /* .sidebar{
-       transform: translate(-443px, 0px);
-       position: absolute;
-   } */
-}
 
 
 /* This style Start for Icon */
@@ -540,7 +530,7 @@
 /* Aaryan png */
 
 .aaryan1 img{
-    height: auto;
+    height: 40vh;
     margin-left: 668px;
     /* margin-left: 668px; */
     margin-top: -130px;
@@ -588,18 +578,18 @@
     height: 19vh;
 }
 
-.h23{
-   height: 56vh;
+.h23 img{
+    height: 56vh;
 }
 
-
-.h24{
-   height: 55vh;
+.h24 img{
+    height: 55vh;
 }
 
-
-.h25{
-   height: 55vh;
+.h25 img{
+    height: 55vh;
 }
 
-
+.blog45{
+    height: 55vh;
+}
