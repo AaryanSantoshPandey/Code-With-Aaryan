@@ -936,3 +936,10 @@ html,body{
     
 }
 
+
+@media (max-width: 1615px) {
+    .devInfo{
+        font-size: 10px;
+    }
+
+}
