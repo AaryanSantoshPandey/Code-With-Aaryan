@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=no">
+    <title>CodeWithAaryan - Web Developer, Programmer, ML Enthusiast</title>
+    <link rel="stylesheet" href="/css/syle.css">
+    <link rel="stylesheet" href="/css/prism.css">
+    <script src="/js/prism.js"></script>
+    <link rel="icon" type="image/x-icon" href="/img/Background.png">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="sidebar">
+            <nav class="navbar">
+                <ul>
+                    <li ><a href="/">Home</a></li>
+                    <li><a href="/courses.html">Courses</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>  
+                </ul>
+            </nav>
+        <div class="main">
+            
+            <style>
+                .code {
+                    margin-top: 31px;
+                    margin-left: 724px;
+                    /* font-size: 17px; */
+                    /* border-radius: 19px; */
+                    font-weight: 600;
+                    font-size: .875rem;
+                    line-height: 1.25rem;
+                    padding-left: 0.75rem;
+                    padding-right: 0.75rem;
+                    border-radius: 9999px;
+                    --tw-bg-opacity: 1;
+                    background-color: rgba(199, 210, 254, var(--tw-bg-opacity));
+                    color: gray;
+                    border-color: rgba(199, 210, 254, var(--tw-bg-opacity));
+                    height: 40px;
+                    cursor: pointer;
+                }
+            </style>
+            <div class="video1">
+                <iframe width="700" height="350" src="https://www.youtube.com/embed/gKIbd2V7swI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h1>HTML Tutorial: Table & List | Web Development Tutorials #4</h1>
+
+                <p>IIn this tutorial, we will work on the concepts of Lists and Tables in HTML. So, let us start by making a new file as tut.html and add the boilerplate to get the necessary HTML template. Give the title as Tables and Lists in <b>title</b> tag. 
+
+                    The lists are basically of two types-</p>
+
+                <p> The difference between an ordered and an unordered list is that the ordered list displays the list in this format -
+        <pre>
+         1.
+                    
+         2.
+                    
+         3.
+                    
+         ….
+                    
+         On the other hand, the unordered lists display the list in the following format-
+                    
+         .
+         .
+         .
+         ….
+                </pre>
+                </p>
+
+                <p>Both the lists have more than one attribute which we can write using the type command.</p>
+
+                <p>Then we will get the lists as I, II, III, and so on. In the same format, we can also get the lists as A, B, C, and so on.
+
+                    This applies on unordered lists also. </p>
+
+
+
+                <p>Then we will get a bulleted square instead of a circle. There are various other references available from which you can see all the attributes. There is no need to learn all these things. You will get perfect by practising.</p>
+
+                <p>HTML also allows the nesting of lists. It simply means we can add a list into another list.</p>
+
+                <p>Let us now discuss the Tables in HTML. A <b>table</b> is just a combination of rows and columns on a webpage. </p>
+
+                <p>The main part is the table tag, and it consists of two parts: the table head and table body. The <b>thead</b> consists of the main head of the table and <b>tbody</b> consists of the body of the table. 
+
+                    <b>tr</b> is used to justify that it is the part of a row. Inside the <b>tr</b> tag, we give the headings of a row under the <b>th</b> tag. </p>
+
+                   <p>In a table, there are mostly two things to remember, the head and the body of a table. To add more rows to the table, we can simply add a <tr> tag and add any number of rows in a table.
+
+                    I believe you have understood clearly what the lists and tables are. Tables and lists are two primary components of a website that helps in making it more attractive. There will be more tutorials coming to assist you in developing your site. So be patient and keep practising the things taught till now.  
+                    
+                    </p>
+                    <div class="container">
+                        <ol>
+                            <!-- <li><b>Source Code:</b> t6.html Source code was this enjoy the source code. -->
+                                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;Table and Lists&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;ul type="circle"&gt;
+                    &lt;li&gt;This is  first item of my unorder list&lt;/li&gt;
+                    &lt;li&gt;This is  second item of my unorder list&lt;/li&gt;
+                    
+                    &lt;ul&gt;
+                    &lt;li&gt;Another one&lt;/li&gt;
+                    &lt;li&gt;Another two&lt;/li&gt;
+                    &lt;li&gt;Another two&lt;/li&gt;
+                    &lt;/ul&gt;
+                
+                    &lt;li&gt;This i third item of my unordered list&lt;/li&gt;
+                
+                    &lt;/ul&gt;
+                
+                    &lt;ol type="a"&gt; 
+                    &lt;li&gt;This i first item of my unordered list&lt;/li&gt;
+                    &lt;li&gt;This i second item of my unordered list&lt;/li&gt;
+                    &lt;li&gt;This i third item of my unordered list&lt;/li&gt;
+                    &lt;/ol&gt
+                
+                    &lt;h3&gt;HTML Table&lt;/h3&gt;
+                    &lt;table&gt;
+                        &lt;thead&gt;
+                          &lt;tr&gt;
+                            &lt;th&gt;Name&lt;/th&gt;
+                            &lt;th&gt;Employee Id&lt;/th&gt;
+                            &lt;th&gt;Employee Role&lt;/th&gt;
+                          &lt;/tr&gt;
+                        &lt;/thead&gt;
+                
+                        &lt;tbody&gt;
+                           &lt;tr&gt;
+                                &lt;td&gt;Aaryan&lt;/td&gt;
+                                &lt;td&gt;354784&lt;/td&gt;
+                                &lt;td&gt;Web programmer&lt;/td&gt;
+                           &lt;/tr&gt;
+                
+                           &lt;tr&gt;
+                                &lt;td&gt;Smarat&lt;/td&gt;
+                                &lt;td&gt;908351&lt;/td&gt;
+                                &lt;td&gt;HTML Expert&lt;/td&gt;
+                           &lt;/tr&gt;
+                
+                           &lt;tr&gt;
+                                &lt;td&gt;Raj&lt;/td&gt;
+                                &lt;td&gt;877871&lt;/td&gt;
+                                &lt;td&gt;Android Developer&lt;/td&gt;
+                           &lt;/tr&gt;
+                        
+                    
+                &lt;/body&gt;
+                &lt;/html&gt; </code></pre>
+                          
+                    </div>            </div>
+
+            <div class="leftside">
+                <h1>Course: Web Dev Tutorials For Beginners</h1>
+                <a href="/courses/Web development Video/index.html">HTML Tutorial: Installing VS Code & Live Server | Web Development Tutorials #1</a>
+
+                <a href="/courses/Web development Video/video2.html">HTML Tutrioal: Heading & Paragraphs / Web development #2</a>
+
+                <a href="/courses/Web development Video/video3.html">HTML Tutrioal: Links and Images/ Web Development #3/</a>
+
+                <a href="/courses/Web development Video/video4.html">HTML Tutrioal: Table & Lists / Web Development #4</a>
+
+                <a href="/courses/Web development Video/video5.html">HTML Tutrioal: Introduction of HTML and CSS #5</a>
+
+                <a href="/courses/Web development Video/video6.html">  HTML Tutrioal : InLine and Bloak Element #6</a>
+
+               <a href="/courses/Web development Video/video7.html">CSS Tutorial: Selectors in CSS | Web Development Tutorials #7</a>
+
+               <a href="/courses/Web development Video/video8.html">CSS Tutorial: Chrome Tools For CSS #8</a>
+
+               <a href="/courses/Web development Video/video9.html">CSS Tutorial: Fonts In CSS | Web Development Tutorials #9</a>
+
+
+            </div>
+        </div>
+    </div>
+   
+</body>
+<script src="/Js/index.js"></script>
+
+</html>
