@@ -1,0 +1,192 @@
+@media (max-width: 767px) {
+    .homecontactcoursesbutton {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .homecoursesbutton {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        margin-left: -225px;
+    }
+
+
+    .coders {
+        height: 0;
+        margin-top: 0;
+        width: 0;
+    }
+
+    .recommended h1 {
+        margin-top: -237px;
+        text-align: center;
+        margin-left: -364px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 31px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar ul li a {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 152px;
+        display: block;
+    }
+
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-left: 151px;
+    }
+
+    .navbar {
+        margin-left: -76px;
+    }
+
+    .three:checked~ul {
+        left: 0;
+
+    }
+}
+
+
+@media (max-width: 767px) {
+    .contactform h1 {
+        font-size: 20px;
+    }
+
+    .contactform div {
+        margin-left: 1px;
+        width: 219px;
+    }
+
+    .contactform {
+        margin-top: 209px;
+        margin-left: -251px;
+    }
+
+    .main1 {
+        margin-top: 14px;
+        margin-left: 49px;
+    }
+
+    .navbar ul li a {
+
+        margin-left: 87px;
+        flex-direction: column;
+        margin-left: 142px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .devInfo h1 {
+        font-size: 23px;
+        margin-left: -236px;
+        text-align: center;
+        margin-top: 37px;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    .devInfo p {
+        padding-left: 138px;
+        width: 250px;
+        margin-left: -360px;
+        line-height: 1.4rem;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+  
+
+   
+
+    .web img {
+        margin-right: 12px;
+        height: 119px;
+        width: auto;
+        margin-left: -175px;
+    }
+
+    
+
+
+    
+    
+
+    
+
+    
+    
+   
+    
+   
+    .web p {
+        font-size: 12px;
+        margin-left: -149px;
+    }
+
+    .android p {
+        font-size: 12px;
+        margin-left: -149px;
+    }
+
+    .web h1 {
+        width: 263px;
+        margin-left: -162px;
+    }
+
+    .web h3 {
+        width: 255px;
+        margin-left: -161px;
+    }
+
+    .web button {
+        margin-left: -169px;
+    }
+
+    .android button {
+        margin-left: -169px;
+    }
+
+    .android h3 {
+        width: 255px;
+        margin-left: -161px;
+    }
+
+    .android h1 {
+        width: 263px;
+        margin-left: -162px;
+    }
+
+    .video h3 {
+        width: 255px;
+    }
+
+    .learn {
+        margin-top: 24px;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .page img {
+        margin-left: 114px;
+        align-items: center;
+    }
+
+
+}
