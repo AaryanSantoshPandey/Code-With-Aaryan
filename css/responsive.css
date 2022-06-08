@@ -121,10 +121,15 @@
         margin-left: -175px;
     }
 
-    
+    .web, .android{
+        all: unset}
 
 
-    
+    .android img{
+        margin-left: -189px;
+    margin-top: 12px;
+
+    }
     
 
     
