@@ -1,0 +1,23 @@
+
+                <p>Till now, in this web development course, we have learned about basics so far. In this tutorial, we will learn “How to handle images and links in HTML".</p>
+               
+                <p>Before we proceed let me tell you that, from this tutorial, we are going to increase our pace of learning because HTML is quite easy and to the point language and I don’t think you will face any problems if you will read and learn each and every tutorial wisely.  think you will face any problems if you will read and learn each and every tutorial wisely.</p>
+
+                <p>First, let’s set up the boilerplate. It is a basic HTML template with all the required fields. If you haven’t checked the previous tutorials, then it is suggested to go through them in the first place.
+                </p>
+
+                <p>Now, let’s have a look at the anchor tag that basically helps us to handle links. 
+
+                    In the body tag, if you type “a", anchor tag will appear. Just hit the enter key or if you want you can manually write the whole tag.</p>
+
+                <p> Now, the problem arises here is that as soon as we click on the keyword, the website will open on the same webpage but if in case you want to open the website in a new tab then you have to add a new attribute in the anchor tag I.e. “target". 
+
+                    You might be confused between tag and attribute, then let me quickly tell you the difference between both. 
+                    
+                    Tag is like a container that allows you to handle an element whereas attribute is the property that enhances that container makes it more convenient to use. 
+                    
+                    To open a website in a new tab</p>
+
+
+
+                <p>Through this anchor tag, you can also link internal webpages that are locally available in your directory. You just have to use the address of the internal webpages including the file name with its extension. </p>
