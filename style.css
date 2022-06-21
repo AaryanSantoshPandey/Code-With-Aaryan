@@ -18,7 +18,7 @@
     --primary: #121212;
     --secondary: #0b0b0b;
     --accent: #54c75b;
-    --font-color: #fff;
+    --font-color: red;
     --pure: #fff;
 }
 
@@ -26,7 +26,7 @@
     --primary: #252c35;
     --secondary: #20272e;
     --accent: #54c75b;
-    --font-color: #fff;
+    --font-color: gray;
     --pure: #fff;
 }
 
@@ -56,8 +56,8 @@ body {
     width: 1192px;
     max-width: 90%;
     margin: 0 auto;
-    margin-top: -55px;   
-     margin-left: 4px;
+    margin-top: -52px;
+    margin-left: -64px;
 }
 
 
