@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.blog1 h1 {
+    margin-top: 78px;
+    margin-left: -262px;
+    width: 850px;
+    font-size: 39px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.blog1 p {
+    margin-left: -263px;
+    margin-top: 24px;
+    font-size: 18px;
+    width: 867px;
+    line-height: 1.5rem;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.blog1 h2 {
+    margin-top: 19px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-left: -248px;
+}
+
+.laptop {
+    margin-left: -166px;
+    height: 644px;
+}
+
+.blog1 ul {
+    margin-left: -264px;
+    margin-top: 18px;
+    font-size: 23px;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+
+.blog1 li {
+    margin-left: 52px;
+    font-size: 16px;
+    margin-top: 12px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .blog1 h1 {
+        margin-top: 248px;
+        font-size: 22px;
+        margin-left: -184px;
+
+        width: 329px;
+    }
+
+    .blog1 p {
+        /* width: 379px;
+        margin-left: -239px;
+        font-size: 16px; */
+        width: 252px;
+        margin-left: -164px;        font-size: 16px;
+    }
+
+    .blog1 img {
+        margin-left: -196px;
+        height: 251px;
+    }
+
+
+    .blog1 h2 {
+        margin-top: 19px;
+        font-family: 'Libre Franklin', sans-serif;
+        margin-left: -211px;
+        font-size: 23px;
+        width: 403px;
+    }
+
+    .blog1 ul {
+        margin-left: -235px;
+        margin-top: 18px;
+        font-size: 21px;
+        font-family: 'Libre Franklin', sans-serif;
+    }
+
+    .blog1 li {
+        width: 294px;
+        margin-left: 105px;    }
+
+
+
+}
+
+
+.blog2 h1 {
+    margin-top: 78px;
+    margin-left: -262px;
+    width: 850px;
+    font-size: 39px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.blog2 p {
+    margin-left: -263px;
+    margin-top: 24px;
+    font-size: 18px;
+    width: 867px;
+    line-height: 1.5rem;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.blog2 h2 {
+    margin-top: 19px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-left: -248px;
+}
+
+.image6 {
+    margin-left: -199px;
+    height: 203px;
+}
+
+.image2 {
+    margin-left: -153px;
+    height: 373px;
+}
+
+.image1 {
+    height: 431px;
+    margin-left: -143px;
+}
+
+.image3 {
+    margin-left: -219px;
+}
+
+.image4 {
+    margin-left: -252px;
+}
+
+.image5 {
+    margin-left: -252px;
+    height: 401px;
+}
+
+.blog2 ul {
+    margin-left: -264px;
+    margin-top: 18px;
+    font-size: 23px;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+
+.blog2 li {
+    margin-left: 52px;
+    font-size: 16px;
+    margin-top: 12px;
+    line-height: 2;
+    font-weight: bold;
+}
