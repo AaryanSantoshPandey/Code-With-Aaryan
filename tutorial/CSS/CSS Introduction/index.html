@@ -1,0 +1,243 @@
+<!DOCTYPE CSS>
+<CSS lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Introduction & History | CodeWithAaryan</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/style2.css">
+        <link rel="stylesheet" href="/css/style3.css">
+        <link rel="stylesheet" href="/css/style4.css">
+        <link rel="stylesheet" href="/css/style5.css">
+        <link rel="stylesheet" href="/css/responsivemobile.css">
+        <link rel="icon" type="image/x-icon" href="/fav/favicon.ico">
+
+    </head>
+    <style>
+        .icons {
+            margin-left: 859px;
+        }
+
+        .mx-8 {
+            margin-top: -17px;
+            padding-left: 246px;
+            margin-left: -138px;
+        }
+
+        .md:mx-0 {
+            margin-left: 196px;
+        }
+
+        .icons {
+            /* margin-left: 992px; */
+        }
+
+        .footer {
+            margin-left: -108px;
+        }
+
+        @media (max-width: 768px) {
+            .icons {
+                margin-left: 120px;
+                margin-top: 51px;
+            }
+
+            .copy {
+                margin-top: 5px;
+                margin-left: 127px;
+                color: gray;
+            }
+
+            .mx-8 {
+                margin-top: 5px;
+                margin-left: 16px;
+                color: gray;
+                padding-left: 15px;
+            }
+
+            .footer {
+                margin-left: -89px;
+            }
+        }
+
+        p {
+            color: white;
+        }
+
+        li {
+            color: white;
+        }
+
+        #heading {
+            --tw-text-opacity: 1;
+            color: rgb(126 34 206/var(--tw-text-opacity));
+        }
+
+        span {
+            color: white;
+        }
+    </style>
+
+    <body style="--tw-bg-opacity: 1;
+background-color: rgb(17 24 39/var(--tw-bg-opacity));
+">
+        <!-- Navbar -->
+        <div navbar="/navbar/index.html"></div>
+        <div class="app">
+            <aside class="sidebar sidebarGo">
+                <h3>Introduction</h3>
+
+                <div class="main">
+                    <div class="humburger">
+                        <img class="humm" src="/img/white.png" alt="" width="23px">
+                        <!-- <img class="cross" src="/img/white.png" alt="" width="23px"> -->
+                        <!-- <img class="cross" src="/img/cross-removebg-preview.png" alt="" width="15px"> -->
+                        <!-- <img class="cross" src="/img/cross-removebg-preview.png" alt="" width="15px"> -->
+                    </div>
+
+                    <nav class="menu">
+                        <a class="menu-item is-active" href="/tutorial/CSS/CSS Introduction/">CSS Introduction&
+                            History</a>
+                        <a class="menu-item" href="/tutorial/CSS/My first CSS website/">My first CSS Website</a>
+                        <a class="menu-item" href="/tutorial/CSS/How CSS works?/">How CSS worls?</a>
+                        <!-- <a class="menu-item" href="/tutorial/CSS/Ways to add CSS/">Ways to add CSS</a>
+                        <a class="menu-item" href="/tutorial/CSS/CSS Selectors/">CSS Selectors</a>
+                        <a class="menu-item" href="/tutorial/CSS/CSS Comments/">CSS Comments</a> -->
+
+                    </nav>
+
+            </aside>
+            <div class="md:px-8 w-[100%] mx-8 md:w-[85%] md:mx-0">
+                <div class="flex mt-8 mb-6 justify-between"><button
+                        class="text-white w-20 cursor-pointer justify-center bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center mx-1 disabled:bg-gray-200 disabled:text-gray-400 disabled:cursor-default dark:disabled:text-gray-300 dark:bg-purple-600 dark:hover:bg-purple-900 dark:disabled:bg-gray-500">
+                        Previous </button><button
+                        class="text-white w-20 cursor-pointer justify-center bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center mx-1 disabled:bg-gray-200 disabled:text-gray-400 disabled:cursor-default dark:disabled:text-gray-300 dark:bg-purple-600 dark:hover:bg-purple-900 dark:disabled:bg-gray-500">
+                        Next </button></div>
+                <div class="flex mt-5 justify-between">
+                    <h1 class="flex text-3xl md:text-4xl">Your first CSS website</h1>
+                </div>
+                <div class="pt-2 cont font-karla min-h-screen dark:text-gray-200">
+                    <h3 dir="ltr">Installing VS Code</h3>
+                    <ul>
+                        <li dir="ltr" role="presentation">Go to Google (or any preferred browser).</li>
+                        <li dir="ltr" role="presentation">Type Visual studio code download</li>
+                        <li dir="ltr" role="presentation">Click on download and install it as per your OS</li>
+                        <li dir="ltr" role="presentation">After the installation is done, you need to install the Live
+                            Server extension to view the changes you make to your website.</li>
+                    </ul>
+                    <p><strong>&nbsp;</strong></p>
+                    <p dir="ltr">You can refer to this link in case you have any doubts about the installation- <a
+                            href="https://youtu.be/TeZdo8mx0gc?t=92"><span
+                                data-rich-links="{&quot;fple-t&quot;:&quot;HTML Tutorial: Installing VS Code &amp; Live Server | Web Development Tutorials #2&quot;,&quot;fple-u&quot;:&quot;https://youtu.be/TeZdo8mx0gc?t=92&quot;,&quot;fple-mt&quot;:null,&quot;type&quot;:&quot;first-party-link&quot;}">HTML
+                                Tutorial: Installing VS Code &amp; Live Server | Web Development Tutorials #2</span></a>
+                    </p>
+                    <p><strong>&nbsp;</strong></p>
+                    <h3 dir="ltr">Which Browser should I use for web development?</h3>
+                    <p dir="ltr">In general, you can use any web browser that is supported on your device. The most
+                        common of these are-&nbsp;</p>
+                    <ul>
+                        <li dir="ltr" role="presentation">Chrome</li>
+                        <li dir="ltr" role="presentation">Microsoft Edge</li>
+                        <li dir="ltr" role="presentation">Safari</li>
+                        <li dir="ltr" role="presentation">Firefox</li>
+                        <li dir="ltr" role="presentation">Brave<br><br></li>
+                    </ul>
+                    <p dir="ltr">But as per my personal advice, the Firefox browser gives the best usability and
+                        features especially for a new user. In fact, this tutorial will use Firefox to show the code
+                        outputs on our website.</p>
+                    <p><strong>&nbsp;</strong></p>
+                    <h3 dir="ltr">Your first CSS website</h3>
+                    <p dir="ltr">So, if you have successfully followed the above steps you can open vs code and create a
+                        new file with the name “first.html”. I assume you’ve enough knowledge so far about HTML to
+                        understand the working of HTML emmet and tags.</p>
+                    <p dir="ltr">&nbsp;</p>
+                    <p dir="ltr">In case you do not feel confident with CSS, you can skim through this tutorial for a
+                        refresher.</p>
+                    <p dir="ltr"><a
+                            href="../../../tutorial/html-home/">https://www.codewithharry.com/tutorial/html-home/</a>
+                    </p>
+                    <p><strong>&nbsp;</strong></p>
+                    <p dir="ltr">Now once you have created an HTML file, type “!” and enter to use the emmet for the
+                        default HTML website.</p>
+                    <p dir="ltr"><img
+                            src="https://cwh-full-next-space.fra1.digitaloceanspaces.com/tutorial/css-your-first-website/!.webp"
+                            width="1090" height="327"></p>
+                    <p dir="ltr">This code would then look something like this.</p>
+                    <p dir="ltr">&nbsp;</p>
+                    <p dir="ltr"><img
+                            src="https://cwh-full-next-space.fra1.digitaloceanspaces.com/tutorial/css-your-first-website/default HTML.webp"
+                            width="1075" height="546"></p>
+                    <p dir="ltr">Rename the title to “First CSS”. This is the title that would be displayed at the top
+                        of the website.</p>
+                    <p dir="ltr">&nbsp;</p>
+                    <p><img src="https://cwh-full-next-space.fra1.digitaloceanspaces.com/tutorial/css-your-first-website/first.webp"
+                            width="1069" height="584"></p>
+                    <p dir="ltr">Now let’s see the output of this code. Remember we had installed a live server
+                        extension earlier, you would see an icon on the bottom of the tray in VS code named “Go live”.
+                        You can also right-click to select open with Live Server to run the code.</p>
+                    <p><strong>&nbsp;</strong></p>
+                    <p dir="ltr">This is how this website would look like without any text or attributes.</p>
+                    <p><img src="https://cwh-full-next-space.fra1.digitaloceanspaces.com/tutorial/css-your-first-website/preview.webp"
+                            width="1526" height="798"></p>
+                    <p dir="ltr">You can see here, that the title of the website is the only change we made. This is
+                        what an empty HTML website looks like. Now let’s add some HTML text and try styling that with
+                        CSS.</p>
+                    <p><strong>&nbsp;</strong></p>
+                    <p dir="ltr">In the body tag, write anything you want to. Something like this-</p>
+                    <p><img src="https://cwh-full-next-space.fra1.digitaloceanspaces.com/tutorial/css-your-first-website/first line.webp"
+                            width="733" height="141"></p>
+                    <p dir="ltr">Now let’s add some styling. Though there are many ways to add CSS to an HTML website,
+                        we’ll look at them later. For now, in the head tag create a tag with the name style.</p>
+                    <p><strong>&nbsp;</strong></p>
+                    <p dir="ltr">Add the body tag there, and finally, you’re going to add now your first CSS
+                        property.&nbsp;</p>
+                    <p dir="ltr">Type the following lines-</p>
+                    <div class="code-toolbar">
+                        <pre class="language-css" tabindex="0"><code class="language-css"><span class="token selector">&lt;style&gt;
+                    body</span> <span class="token punctuation">{</span>
+                        <span class="token property">color</span><span class="token punctuation">:</span> yellow<span class="token punctuation">;</span>
+                        <span class="token property">background-color</span><span class="token punctuation">:</span> rebeccapurple<span class="token punctuation">;</span>
+                    <span class="token punctuation">}</span>
+                &lt;/style&gt;</code></pre>
+                        <div class="toolbar">
+                            <div class="toolbar-item"><button class="copy-to-clipboard-button" type="button"
+                                    data-copy-state="copy"><span>Copy</span></button></div>
+                        </div>
+                    </div>
+                    <p>&nbsp;</p>
+                    <p dir="ltr">Let’s see the output of this code first, which will give you half of the explanation of
+                        what exactly happened here.</p>
+                    <p><img src="https://cwh-full-next-space.fra1.digitaloceanspaces.com/tutorial/css-your-first-website/first css.webp"
+                            width="1535" height="909"></p>
+                    <p dir="ltr">Pat yourself on the back! You’ve begun your journey with CSS. Throughout these
+                        tutorials, you’ll get better clarity about other properties as well.&nbsp;</p>
+                    <p><strong>&nbsp;</strong></p>
+                    <p dir="ltr">Coming back to this code, <strong>here’s the whole code for you.</strong></p>
+                    <p><img src="https://cwh-full-next-space.fra1.digitaloceanspaces.com/tutorial/css-your-first-website/full code.webp"
+                            width="1144" height="836"></p>
+                    <p>To style any piece of code in CSS we need to select that (we selected body tag here). There are
+                        many other ways to do so as well. So just be patient and join your Harry Bhai to master CSS from
+                        Scratch.</p>
+                    <p>&nbsp;</p>
+                </div>
+                <div class="flex my-5 justify-between"><button
+                        class="text-white w-20 cursor-pointer justify-center bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center mx-1 disabled:bg-gray-200 disabled:text-gray-400 disabled:cursor-default dark:disabled:text-gray-300 dark:bg-purple-600 dark:hover:bg-purple-900 dark:disabled:bg-gray-500">
+                        Previous </button><button
+                        class="text-white w-20 cursor-pointer justify-center bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center mx-1 disabled:bg-gray-200 disabled:text-gray-400 disabled:cursor-default dark:disabled:text-gray-300 dark:bg-purple-600 dark:hover:bg-purple-900 dark:disabled:bg-gray-500">
+                        Next </button></div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+    </body>
+    <script src="/js/inculde.js"></script>
+    <script src="/js/sreach.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/hum.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+</CSS>
