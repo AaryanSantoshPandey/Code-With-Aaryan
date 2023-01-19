@@ -1,0 +1,26 @@
+body{
+    --tw-bg-opacity: 1;
+background-color: rgb(17 24 39/var(--tw-bg-opacity));
+}
+.logof {
+margin-bottom: 34px;
+}
+
+.logof img {
+margin-top: 12px;
+height: 56px;
+margin-left: 38px;
+margin-bottom: 34px;
+}
+
+.icons {
+margin-top: -50px;
+display: flex;
+margin-left: 1186px;
+}
+
+.copy {
+margin-top: -33px;
+margin-left: 305px;
+color: gray;
+}
